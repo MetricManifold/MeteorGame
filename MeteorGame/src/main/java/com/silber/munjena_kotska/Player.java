@@ -1,4 +1,4 @@
-package munjena_kotska;
+package com.silber.munjena_kotska;
 
 /**
  * The Player object.

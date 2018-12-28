@@ -1,6 +1,6 @@
-package munjena_kotska;
+package com.silber.munjena_kotska;
 
-import hsa_ufa.Console;
+import com.silber.hsa_ufa.Console;
 
 import java.awt.Color;
 

@@ -1,4 +1,4 @@
-package hsa_ufa;
+package com.silber.hsa_ufa;
 
 /**
  * The Message class displays a dialog box with a message in it until the
@@ -83,7 +83,9 @@ public class Message extends CloseableDialog
 
 		// Put OK button at bottom
 		okButton = new Button("OK");
-		okButton.addActionListener(this);
+
+		// null was previously "this"
+		okButton.addActionListener(null);
 		Panel p = new Panel();
 		p.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		p.add(okButton);

@@ -1,4 +1,4 @@
-package munjena_kotska;
+package com.silber.munjena_kotska;
 
 import java.awt.Color;
 

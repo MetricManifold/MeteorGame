@@ -1,4 +1,6 @@
-package munjena_kotska;
+package com.silber.meteorgame;
+
+import com.silber.munjena_kotska.*;
 
 import java.awt.Color;
 import java.awt.Dimension;

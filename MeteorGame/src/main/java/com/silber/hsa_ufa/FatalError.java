@@ -1,4 +1,4 @@
-package hsa_ufa;
+package com.silber.hsa_ufa;
 
 /**
  * The FatalError class displays an error message and then terminates the
@@ -50,7 +50,9 @@ public class FatalError extends CloseableDialog
 
 		// Put OK button at bottom
 		quitButton = new Button("Quit");
-		quitButton.addActionListener(this);
+
+		// null was previously "this"
+		quitButton.addActionListener(null);
 		Panel p = new Panel();
 		p.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 0));
 		p.add(quitButton);

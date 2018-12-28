@@ -1,7 +1,7 @@
-package munjena_kotska;
+package com.silber.munjena_kotska;
 
 import java.awt.Color;
-import hsa_ufa.Console;
+import com.silber.hsa_ufa.Console;
 
 public abstract class Entity
 {
