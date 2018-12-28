@@ -23,6 +23,8 @@ hs_err_pid*
 
 # ignore maven outputs
 target
-.settings
-.vscode
+.settings/
+.vscode/
 resources/Thumbs.db
+
+bin
